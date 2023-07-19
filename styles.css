@@ -71,6 +71,15 @@ select {
   color: #292929;
 }
 
+.H5_20_R {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 120%;
+  letter-spacing: 0px;
+  color: #292929;
+}
+
 .h2_37_R {
   font-family: "Open Sans", sans-serif;
   font-size: 37px;
@@ -107,6 +116,15 @@ select {
   color: #292929;
 }
 
+.H5_20_R {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 120%;
+  letter-spacing: 0px;
+  color: #292929;
+}
+
 .h2_37_R {
   font-family: "Open Sans", sans-serif;
   font-size: 37px;
@@ -139,6 +157,9 @@ button {
   border-color: #0F644D;
   color: #292929;
   background-color: #FFFFFF;
+}
+button .prev {
+  border: none;
 }
 
 a {
@@ -293,6 +314,27 @@ a:hover {
   border-radius: 50%;
 }
 
-.foto {
-  margin-up: 600px;
+.foto-slider-container {
+  height: 600px;
+  border: 1px dotted blue;
+}
+
+.cause-item {
+  display: flex;
+}
+.cause-item div {
+  width: 33%;
+}
+.cause-item div:nth-child(n+2) {
+  border-top: 1px solid rgba(84, 84, 84, 0.5);
+}
+
+.portfolio .slider-container {
+  display: flex;
+}
+.portfolio input[type=range] {
+  width: 200px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }/*# sourceMappingURL=styles.css.map */
