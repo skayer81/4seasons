@@ -21,7 +21,7 @@
                 </div>
                 <div class="contact-info">
                     <div class="contact-info_social">
-                        <div class="contact-info_text">Пишите. Мы онлайн</div>
+                        <div class="contact-info_text title_16_R_header">Пишите. Мы онлайн</div>
                         <ul class="social-list">
                             <li class="social-list_item"><a href="watsap.ru"><img src="./images/header/whatsapp.svg"
                                         alt=""></a></li>
@@ -32,14 +32,14 @@
                         </ul>
                     </div>
                     <div class="contact-info_work">
-                        <div class="work_time">Работаем пн-пт 09.00 - 19.00</div>
-                        <a href="" class="tel">+79201006085</a>
+                        <div class="work_time title_16_R_header">Работаем пн-пт 09.00 - 19.00</div>
+                        <a href="" class="tel menu_24_R">+79201006085</a>
                         <button class="button-white">Нужна консультация</button>
                     </div>
                 </div>
             </div>
             <nav class="main-navigation">
-                <ul class="nav-list">
+                <ul class="nav-list menu_24_R">
                     <li class="nav-item"><a href="">Портфолио</a></li>
                     <li class="nav-item"><a href="">Услуги</a></li>
                     <li class="nav-item"><a href="">О компании</a></li>
@@ -239,25 +239,25 @@
                             <img class="slider-card_img" src="./images/mainpage/portfolio6.jpg" alt="">
                             <p class="slider-card_description caption_20_R_130 ">альпийская горка</p>
                         </div>
-                        
-                           <img class="slider-card_img" src="./images/mainpage/portfolio1.jpg" alt="">
-            
-        
-                  
-                            <img class="slider-card_img" src="./images/mainpage/portfolio2.jpg" alt="">
-                   
-                     
-                            <img class="slider-card_img" src="./images/mainpage/portfolio3.jpg" alt="">
-                     
-                    
-                            <img class="slider-card_img" src="./images/mainpage/portfolio4.jpg" alt="">
-                      
-                            <img class="slider-card_img" src="./images/mainpage/portfolio5.jpg" alt="">
-                  
-                    
-                            <img class="slider-card_img" src="./images/mainpage/portfolio6.jpg" alt="">
-                  
-                    
+
+                        <img class="slider-card_img" src="./images/mainpage/portfolio1.jpg" alt="">
+
+
+
+                        <img class="slider-card_img" src="./images/mainpage/portfolio2.jpg" alt="">
+
+
+                        <img class="slider-card_img" src="./images/mainpage/portfolio3.jpg" alt="">
+
+
+                        <img class="slider-card_img" src="./images/mainpage/portfolio4.jpg" alt="">
+
+                        <img class="slider-card_img" src="./images/mainpage/portfolio5.jpg" alt="">
+
+
+                        <img class="slider-card_img" src="./images/mainpage/portfolio6.jpg" alt="">
+
+
                     </div>
 
 
@@ -271,7 +271,7 @@
 
 
 
-            
+
         </section>
 
         <!-- 6 -->
@@ -286,12 +286,26 @@
                     </div>
                     <div class="form-header_right">
                         <p class="H5_20_R">Вы можете заполнить более подробную анкету заказа</p>
-                        <button>Заполнить анкету</button>
+                        <button class="button-transparent">Заполнить анкету</button>
                     </div>
                 </div>
                 <form action="">
                     <label for="">Общая площадь участка, сотки </label>
+                    <button class="calc-form_decrement">-</button>
                     <input type="number">
+                    <button class="calc-form_increment">+</button>
+                    <select>
+                        <option>Эскизная концепция</option>
+                        <option>Рабочее проектирование</option>
+                        <option value="">Реализация</option>
+                    </select>
+                    <label for="">Нужна 3D-визуализация</label>
+                    <input type="checkbox">
+                    <p>Стоимость вашего проекта:</p>
+                    <div class="calc-price"></div>
+                    <p>Стоимость проекта может быть изменена в большую или меньшую сторону. Точный расчет можно получить
+                        после обсуждения с архитектором.</p>
+                    <p>Обсудить детали проекта</p>
 
                 </form>
 
@@ -342,9 +356,12 @@
                             <div class="sketch-about">
                                 <p>Рабочее проектирование</p>
                                 <p>рассчет индивидуальный</p>
-                                <p>Рабочее проектирование один из этапов благоустройства садового или придомового участка.</p>
-                                <p>Основывается на базе эскизной концепции.На данном этапе начинается создание необходимых рабочих чертежей.</p>
-                                <p>Точный состав рабочего проекта определяется тем, какие именно работы запланированы на участке</p>
+                                <p>Рабочее проектирование один из этапов благоустройства садового или придомового
+                                    участка.</p>
+                                <p>Основывается на базе эскизной концепции.На данном этапе начинается создание
+                                    необходимых рабочих чертежей.</p>
+                                <p>Точный состав рабочего проекта определяется тем, какие именно работы запланированы на
+                                    участке</p>
                                 <p>Что входит?</p>
                                 <button class="button-white">Обсудить проект сада</button>
                                 <button>Подробнее об услуге</button>
@@ -358,8 +375,10 @@
                             <div class="sketch-about">
                                 <p>Реализация</p>
                                 <p>рассчет индивидуальный</p>
-                                <p>Комплекс мероприятий, нацеленных на улучшение санитарных, бытовых, экологических и эстетических условий на участке.</p>
-                                <p>Именно реализация проекта путем благоустройства превращает обычный участок - в удобную, стильную, красивую территорию.</p>
+                                <p>Комплекс мероприятий, нацеленных на улучшение санитарных, бытовых, экологических и
+                                    эстетических условий на участке.</p>
+                                <p>Именно реализация проекта путем благоустройства превращает обычный участок - в
+                                    удобную, стильную, красивую территорию.</p>
                                 <p>Благоустройство включает в себя создание:</p>
                                 <ul>
                                     <li>◦ дорожек и площадок</li>
@@ -437,9 +456,9 @@
                 <p class="about h2_37_R">Зонирование сада под ваши ожидания</p>
                 <div class="benefit-content">
                     <div class="benefit-imgs">
-                    <img class="benefit_mine-img" src="./images/mainpage/benefit1.jpg" alt="">
-                    <img class="benefit_second-img"src="./images/mainpage/benefit2.jpg" alt="">
-                 </div>
+                        <img class="benefit_mine-img" src="./images/mainpage/benefit1.jpg" alt="">
+                        <img class="benefit_second-img" src="./images/mainpage/benefit2.jpg" alt="">
+                    </div>
                     <ul class="benefit-list">
                         <li class="benefit-item">
                             <p class="benefit-number numeric_50_R">1</p>
@@ -525,8 +544,8 @@
         <!-- 13 -->
         <section class="connection">
             <div class="container">
-                <h2>свяжитесь с мной</h2>
-                <p>Оставьте заявку на любую услугу сейчас и получите:</p>
+                <h2 class="descriptoin_20_R">свяжитесь с мной</h2>
+                <p class="about h2_37_R">Оставьте заявку на любую услугу сейчас и получите:</p>
                 <p>Бесплатную консультацию по телефону.</p>
                 <p>Полезный файл «5 факторов, которые следует учитывать при разработке ландшафтной концепции участка»
                 </p>
@@ -541,8 +560,8 @@
         <!-- 14 -->
         <section class="qa">
             <div class="container">
-                <h2>вопрос-ответ</h2>
-                <p>Часто задаваемые вопросы:</p>
+                <h2 class="descriptoin_20_R">вопрос-ответ</h2>
+                <p class="about h2_37_R">Часто задаваемые вопросы:</p>
 
             </div>
         </section>
@@ -556,25 +575,43 @@
 
     <footer class="footer">
         <div class="container">
-<div class="footer-content">
-    <div><p>
-        Встретимся за чашкой кофе, обсудим ваш проект?
-    </p>
-    <p>Оставьте имя и свой номер телефона</p>
+            <div class="footer-content">
+                <div>
+                    <p class="h2_37_R">
+                        Встретимся за чашкой кофе, обсудим ваш проект?
+                    </p>
+                    <p>Оставьте имя и свой номер телефона</p>
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="tel" name="" id="" placeholder="+7 ххх ххх хх хх">
 
 
-</div>
-    <div></div>
-    <div></div>
+                </div>
+                <div>
+                    <p class="h2_37_R">Пишите</p>
+                    <ul class="footer_social-list">
+                        <li class="footer_social-item"></li>
+                        <li class="footer_social-item"></li>
+                        <li class="footer_social-item"></li>
+                        <li class="footer_social-item"></li>
+                        <li class="footer_social-item"></li>
+                        <li class="footer_social-item"></li>
+                    </ul>
+                    <p>E-mail:</p>
+                    <a href="mailto:4sezona76@list.ru">4sezona76@list.ru</a>
+                </div>
+                <div>
+                    <p class="h2_37_R">Звоните</p>
+                    <a href="tel:+7 920 100 60 85">+7 920 100 60 85</a>
+                </div>
 
-</div>
-<nav class="footer-nav">
-    <ul class="li">Портфолио</ul>
-    <ul class="li">Услуги</ul>
-    <ul class="li">О компании</ul>
-    <ul class="li">Цены</ul>
-    <ul class="li">Новости</ul>
-</nav>
+            </div>
+            <nav class="footer-nav">
+                <ul class="li">Портфолио</ul>
+                <ul class="li">Услуги</ul>
+                <ul class="li">О компании</ul>
+                <ul class="li">Цены</ul>
+                <ul class="li">Новости</ul>
+            </nav>
 
         </div>
 

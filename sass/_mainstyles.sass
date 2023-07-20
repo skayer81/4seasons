@@ -27,6 +27,11 @@ button
     border: none
     color: $white
 
+.button-transparent
+    background-color: transparent
+    border: 1px solid $white
+    color: $white    
+
 .button-white
     // border-image: -webkit-linear-gradient(right, #0F644D, #36A37F)
     // border-image: -moz-linear-gradient(right, #0F644D, #36A37F)
@@ -35,6 +40,7 @@ button
     // border-width: 1px
 
     // border-radius: 3px
+    margin: 2px
     border: none
     height: 52px
     color: $black
@@ -102,5 +108,13 @@ a
 
 .title_16_R    
     @extend %title_16_R
+
+.menu_24_R     
+    @extend %menu_24_R 
+
+.title_16_R_header
+    @extend %title_16_R
+    color: $darkgray
+    opacity: 0.5       
 
 

@@ -67,7 +67,7 @@ h1, h2, h3 {
   color: #292929;
 }
 
-.title_16_R {
+.title_16_R_header, .title_16_R {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -98,6 +98,15 @@ button {
   font-weight: 500;
   line-height: 130%;
   letter-spacing: 1.5px;
+  color: #292929;
+}
+
+.menu_24_R {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
   color: #292929;
 }
 
@@ -155,7 +164,7 @@ button {
   color: #292929;
 }
 
-.title_16_R {
+.title_16_R_header, .title_16_R {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -186,6 +195,15 @@ button {
   font-weight: 500;
   line-height: 130%;
   letter-spacing: 1.5px;
+  color: #292929;
+}
+
+.menu_24_R {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
   color: #292929;
 }
 
@@ -258,7 +276,14 @@ button .prev {
   color: #FFFFFF;
 }
 
+.button-transparent {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
 .button-white {
+  margin: 2px;
   border: none;
   height: 52px;
   color: #292929;
@@ -302,6 +327,11 @@ a:hover {
 }
 
 .numeric_50_R {
+  opacity: 0.5;
+}
+
+.title_16_R_header {
+  color: #545454;
   opacity: 0.5;
 }
 
@@ -446,26 +476,8 @@ a:hover {
   justify-content: space-between;
   height: 600px;
 }
-.portfolio input[type=range] {
-  width: 780px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-.portfolio input[type=range]::-webkit-slider-runnable-track {
-  border-radius: 6px;
-  height: 6px;
-  border: 1px solid rgba(84, 84, 84, 0.5);
-  background-color: white;
-}
-.portfolio input[type=range]::-webkit-slider-thumb {
-  background: rgb(84, 84, 84);
-  border-radius: 6px;
-  cursor: pointer;
-  width: 190px;
-  height: 6px;
-  -webkit-appearance: none;
-  margin-top: -1px;
+.portfolio button {
+  align-self: flex-end;
 }
 .portfolio .slider {
   width: 70%;
@@ -573,4 +585,10 @@ a:hover {
 }
 .about-me .about-me_content .about-me_text {
   width: 50%;
+}
+
+.footer {
+  height: 152px;
+  background-image: linear-gradient(to right, #0F644D, #36A37F);
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
