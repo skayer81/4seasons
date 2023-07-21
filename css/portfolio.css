@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -431,215 +430,6 @@ a {
   width: 100%;
 }
 
-.main-screen {
-  height: 650px;
-  background-image: url("./images/mainpage/maincover.jpg");
-  background-size: 100% auto;
-  overflow: hidden;
-}
-.main-screen h1 {
-  margin-top: 170px;
-}
-.main-screen .main-description {
-  width: 35%;
-  color: white;
-  line-height: 150%;
-}
-.main-screen button {
-  margin-top: 27px;
-  border: none;
-}
-
-.about {
-  max-height: 500px;
-}
-.about ul.about-list {
-  display: flex;
-  flex-direction: row;
-  width: 1020px;
-  margin-left: auto;
-  justify-content: space-between;
-  margin-top: 70px;
-  margin-bottom: 140px;
-}
-.about .about-item {
-  position: relative;
-}
-.about .about-text {
-  position: absolute;
-  max-width: 195px;
-  left: 60px;
-}
-
-.img-comp-container {
-  position: relative;
-  height: auto;
-  width: 1180px;
-  margin-left: -10px;
-}
-.img-comp-container img {
-  max-width: none;
-}
-
-.img-comp-img {
-  position: absolute;
-  width: 1180px;
-  height: auto;
-  overflow: hidden;
-}
-
-.img-comp-img img {
-  display: block;
-  vertical-align: middle;
-}
-
-.img-comp-slider {
-  position: absolute;
-  z-index: 9;
-  cursor: ew-resize;
-  /*set the appearance of the slider:*/
-  width: 40px;
-  height: 40px;
-  background-color: #2196F3;
-  opacity: 0.7;
-  border-radius: 50%;
-}
-
-.foto-slider-container {
-  height: 600px;
-  border: 1px dotted blue;
-}
-
-.cause-item {
-  display: flex;
-}
-.cause-item div {
-  width: 33%;
-}
-.cause-item div:nth-child(n+2) {
-  border-top: 1px solid rgba(84, 84, 84, 0.5);
-}
-
-.portfolio .slider-container {
-  display: flex;
-  justify-content: space-between;
-  height: 600px;
-}
-.portfolio button {
-  align-self: flex-end;
-}
-.portfolio .slider {
-  width: 70%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  overflow-x: scroll;
-  margin-right: -120px;
-}
-.portfolio .slider .slider-card {
-  height: 100%;
-  min-width: 360px;
-  margin-right: 60px;
-  border: 1px solid black;
-}
-.portfolio .slider .slider-card img {
-  size: 500px auto;
-}
-.portfolio .slider .slide {
-  min-width: 300px;
-  height: 500px;
-  background-color: red;
-}
-
-/* полоса прокрутки (скроллбар) */
-::-webkit-scrollbar {
-  border-radius: 6px;
-  height: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: white;
-}
-
-/* ползунок скроллбара */
-::-webkit-scrollbar-thumb {
-  background-color: rgba(84, 84, 84, 0.5);
-  border-radius: 8px;
-}
-
-/* Стрелки */
-.form-header {
-  display: flex;
-  justify-content: space-between;
-  background-image: url("./images/mainpage/calculatecover.jpg");
-  background-size: 100% auto;
-  overflow: hidden;
-  height: 164px;
-}
-.form-header * {
-  color: white;
-}
-
-.price .price-item {
-  display: flex;
-}
-
-.howwork ul.howwork_list {
-  width: 66%;
-  margin-left: auto;
-}
-.howwork .howwork_item {
-  position: relative;
-  margin-bottom: 100px;
-}
-.howwork .howwork_item:nth-child(1) {
-  margin-top: 100px;
-}
-.howwork .howwork-item_number {
-  position: absolute;
-  left: -35px;
-  top: -45px;
-}
-
-.benefit .benefit-item {
-  position: relative;
-  margin-bottom: 100px;
-}
-.benefit .benefit-item:nth-child(1) {
-  margin-top: 100px;
-}
-.benefit .benefit-number {
-  position: absolute;
-  left: -35px;
-  top: -45px;
-}
-.benefit .benefit-content {
-  display: flex;
-}
-.benefit .benefit-content .benefit-imgs {
-  width: 70%;
-  position: relative;
-}
-.benefit .benefit-content .benefit-imgs .benefit_second-img {
-  position: absolute;
-  top: 335px;
-  left: 430px;
-}
-.benefit .benefit-content .benefit-list {
-  width: 30%;
-}
-
-.about-me .about {
-  width: 60%;
-}
-.about-me .about-me_signature {
-  text-align: center;
-}
-.about-me .about-me_content {
-  display: flex;
-}
-.about-me .about-me_content .about-me_text {
-  width: 50%;
-}
-
 .footer {
   height: 484px;
   background-image: linear-gradient(to right, #0F644D, #36A37F);
@@ -662,4 +452,43 @@ a {
 }
 .footer .footer-nav {
   display: flex;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.main-header_container {
+  position: relative;
+}
+
+.shadow {
+  height: 100px;
+  width: calc(100% - 20px);
+  background-color: black;
+  opacity: 0.6;
+  border: 1px solid black;
+  text-align: right;
+  position: absolute;
+  bottom: 10px;
+  z-index: 1;
+}
+.shadow .title {
+  opacity: 1;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-item {
+  display: flex;
+  height: 510px;
+  justify-content: space-between;
+  padding: 50px 20px;
+  border-top: 1px solid black;
+}
+.portfolio-item h2 {
+  width: 40%;
+  margin: auto;
+}
+.portfolio-item img {
+  width: 60%;
+}/*# sourceMappingURL=portfolio.css.map */
