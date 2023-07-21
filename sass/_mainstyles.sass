@@ -31,6 +31,7 @@ button
     background-image: none
     background-color: $white
     color: $darkgray    
+    cursor: pointer
 
 .button-transparent
     background-color: transparent
@@ -71,10 +72,18 @@ button
 
 a
     text-decoration: none
+    // color: $black
+    // font-size: 28px
+    // &:hover
+    //     color: $darkgreen
+.header a
     color: $black
     font-size: 28px
     &:hover
-        color: $darkgreen
+            color: $darkgreen
+.footer a
+        color: $white
+        opacity: 0.5        
 
 .descriptoin_20_R
     @extend %descriptoin_20_R
@@ -124,6 +133,11 @@ a
 
 .H1_70_R_W
     @extend %H1_70_R
-    color: $white          
+    color: $white    
+
+.Numeric2_40 
+    @extend %Numeric2_40
+    color: $white
+    opacity: 0.5         
 
 
