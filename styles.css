@@ -376,17 +376,6 @@ a {
 
 .descriptoin_20_R {
   opacity: 0.5;
-  position: relative;
-}
-.descriptoin_20_R::before {
-  position: absolute;
-  top: 0px;
-  left: -102px;
-  display: block;
-  content: "";
-  width: 92px;
-  height: 78px;
-  background-color: #552197;
 }
 
 .numeric_50_R {
