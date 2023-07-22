@@ -314,6 +314,7 @@ button {
   padding: 0 30px 0;
   height: 54px;
   border-radius: 3px;
+  cursor: pointer;
 }
 button .prev {
   border: none;
