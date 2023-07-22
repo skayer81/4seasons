@@ -81,7 +81,7 @@ button {
   letter-spacing: 0.5px;
 }
 
-.Menu_20R {
+.menu_20R {
   font-family: "Lato", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -203,7 +203,7 @@ button {
   letter-spacing: 0.5px;
 }
 
-.Menu_20R {
+.menu_20R {
   font-family: "Lato", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -456,6 +456,12 @@ a {
   position: absolute;
   background-color: white;
   width: 220px;
+}
+.nav-list-servis-list .nav-list-servis-item {
+  opacity: 0.3;
+}
+.nav-list-servis-list .nav-list-servis-item:hover {
+  opacity: 1;
 }
 
 .nav-item-service:hover .nav-list-servis-list {
